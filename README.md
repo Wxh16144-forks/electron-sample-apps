@@ -9,6 +9,31 @@ These sample apps are migrated from [nw-sample-apps](https://github.com/zcbenz/n
 
 All samples are test on Electron v1.6.11.
 
+<details>
+  <summary>Environment</summary>
+  
+  ```
+  ➜ npx envinfo --system --binaries --browsers
+  npx: installed 1 in 0.63s
+
+  System:
+    OS: macOS 14.1.2
+    CPU: (10) x64 Apple M1 Pro
+    Memory: 16.83 MB / 32.00 GB
+    Shell: 5.9 - /bin/zsh
+  Binaries:
+    Node: 12.22.12 - ~/.nvm/versions/node/v12.22.12/bin/node
+    Yarn: 1.22.21 - ~/.nvm/versions/node/v12.22.12/bin/yarn
+    npm: 6.14.16 - ~/.nvm/versions/node/v12.22.12/bin/npm
+    bun: 1.0.16 - /opt/homebrew/bin/bun
+    Watchman: 2023.12.04.00 - /opt/homebrew/bin/watchman
+  Browsers:
+    Chrome: 120.0.6099.234
+    Safari: 17.1.2
+  ```
+
+</details>
+
 ## How to run apps
 
 1. Install Electron via `npm install -g electron`.
